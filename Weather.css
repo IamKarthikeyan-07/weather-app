@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: url(media/weather.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.outline{
+    background-color: rgba(0, 0, 0, 0.45);
+    border:3px solid transparent;
+    width: 30%;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.inputbox{
+    position: relative;
+    top: 10px;
+    margin-bottom: 10px;
+}
+.inputbox input{
+    width: 300px;
+    height: 40px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: white;
+    border-style: solid ;
+    border-color: white;
+    font-size: 18px;
+}
+.inputbox button{
+    position: relative;
+    border-color: white;
+    border-style: solid;
+    background-color: White;
+    padding: 8px;
+    width: 50px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    top: 3px;
+    color: grey;
+}
+::placeholder{
+    
+    font-size: 16px;
+    font-weight: 500;
+}
+.weather-icon{
+    margin: 40px 0;
+}
+.temp{
+    color: white;
+    
+    font-weight: 600;
+}
+.city{
+    margin: 10px 0;
+    font-weight: 500;
+    color: white;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 30px;
+}
+.col{
+    color:white;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    color: white;
+    text-align: left;
+    margin-left:50px ;
+    font-size: 14px;
+    margin-top: 20px;
+    display: none;
+}
