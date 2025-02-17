@@ -121,6 +121,7 @@ body{
     }
     .inputbox{
         margin-bottom: 0;
+        margin-top: 10px;
     }
     .inputbox button{
         position: relative;
