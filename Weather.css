@@ -120,7 +120,7 @@ body{
     }
     .inputbox button{
         position: relative;
-        bottom:  50px;
-        left: 130px;
+        bottom:  100px;
+        left: 125px;
     }
 }
