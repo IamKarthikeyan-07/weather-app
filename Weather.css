@@ -114,7 +114,8 @@ body{
         background-color: aqua;
         background-image: none;
     }
-    .outline{
-        margin-left: 0;
+    
+    .inputbox{
+        margin-left: 10px;
     }
 }
