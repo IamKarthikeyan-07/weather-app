@@ -115,7 +115,6 @@ body{
         background-image: none;
     }
     .outline{
-        position: relative;
-        left: 0;
+        margin-left: 0;
     }
 }
