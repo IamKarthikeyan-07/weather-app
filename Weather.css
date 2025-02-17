@@ -111,7 +111,8 @@ body{
 
 @media only screen and (max-width: 480px){
     body{
-        background:  #aa1ee2e0;
+        background: linear-gradient(to bottom, #ffeb3b 0%, #aa1ee2e0 100%);
+
         background-image: none;
     }
     .outline{
