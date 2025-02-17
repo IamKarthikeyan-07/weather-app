@@ -111,7 +111,7 @@ body{
 
 @media only screen and (max-width: 480px){
     body{
-        background: url("./media/mobile-weather.jpeg");
+        background: url("./media/mobilebg.jpeg");
     
     }
     .outline{
