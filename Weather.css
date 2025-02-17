@@ -108,3 +108,9 @@ body{
     margin-top: 20px;
     display: none;
 }
+
+@media only screen and (max-width: 480px){
+    .container{
+        background-color: aqua;
+    }
+}
