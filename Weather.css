@@ -119,6 +119,9 @@ body{
         display: inline;
         width: 90%;
     }
+    .inputbox{
+        margin-bottom: 0;
+    }
     .inputbox button{
         position: relative;
         top:  -40px;
