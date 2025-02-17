@@ -116,5 +116,6 @@ body{
     }
     .outline{
         display: inline;
+        width: 100%;
     }
 }
