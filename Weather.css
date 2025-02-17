@@ -114,4 +114,8 @@ body{
         background-color: aqua;
         background-image: none;
     }
+    .outline{
+        position: relative;
+        left: 0;
+    }
 }
