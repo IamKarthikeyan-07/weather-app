@@ -111,7 +111,7 @@ body{
 
 @media only screen and (max-width: 480px){
     body{
-        background: url("./media/mobilebg.jpeg");
+        background: url("./media/mobilebg.jpg");
         background-repeat:no-repeat ;
     
     }
