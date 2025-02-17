@@ -132,4 +132,7 @@ body{
         border: none;
         border-color: transparent;
     }
+    .details{
+        margin: 0;
+    }
 }
