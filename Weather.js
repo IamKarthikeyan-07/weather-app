@@ -15,6 +15,22 @@ async function checkweather(city) {
     else{
 
     var data = await response.json();
+
+    
+
+    const sunrise = data.sys.sunrise * 1000;
+const sunset = data.sys.sunset * 1000;
+const currentTime = new Date().getTime();
+
+if (currentTime >= sunrise && currentTime <= sunset) {
+if (data.weather[0].main == "Clear") {
+weathericon.src = "media/sun.png";
+}
+} else {
+if (data.weather[0].main == "Clear") {
+weathericon.src = "media/moon.png";
+}
+}
     
     document.querySelector(".city").innerHTML = data.name;
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
@@ -23,9 +39,6 @@ async function checkweather(city) {
 
     if(data.weather[0].main == "Clouds"){
         weathericon.src = "media/clouds.png";
-    }
-    else if(data.weather[0].main == "Clear"){
-        weathericon.src = "media/sun.png";
     }
     else if(data.weather[0].main == "Rain"){
         weathericon.src = "media/rain.png";
