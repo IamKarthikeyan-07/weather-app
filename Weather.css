@@ -111,7 +111,7 @@ body{
 
 @media only screen and (max-width: 480px){
     body{
-        background-color: rgb(52, 194, 52);
+        background: rgb(26, 138, 11);
         background-image: none;
     }
     .outline{
